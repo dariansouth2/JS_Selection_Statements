@@ -10,8 +10,8 @@ if (favNum> answer){
 } else if(favNum< answer){
   console.log("Too high");
 }
-else (favNum==answer);
-  console.log("Congratulations!!");
+else if(favNum===answer){
+  console.log("Congratulations!!");}
 
 
 
@@ -97,4 +97,4 @@ switch(sizeId){
     size = "One Size Fits All"
 }
 
-console.log(`Product: ${size} ${color} ${type}`);
+console.log(`Product: ${size} ${color} ${type}`); 
